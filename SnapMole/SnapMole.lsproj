@@ -3,14 +3,14 @@
     "document_id": "OfYgOTRjhyKOYGWZpbwC",
     "original_document_id": "OfYgOTRjhyKOYGWZpbwC",
     "version": "29",
-    "lastChanged": "1656472818796",
+    "lastChanged": "1656543229146",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
     "isReadOnly": "false",
     "isAutoSaved": "false",
     "api_level": "public",
-    "public_api_user_data_access": "unrestricted",
+    "public_api_user_data_access": "restricted",
     "studioVersion": {
         "createdWith": {
             "type": "Public",
@@ -33,17 +33,6 @@
                 [
                     [
                         "CountdownObject"
-                    ],
-                    [
-                        "Echopark"
-                    ],
-                    [
-                        "Echopark",
-                        "Diff"
-                    ],
-                    [
-                        "Echopark",
-                        "Specular"
                     ],
                     [
                         "Models"
@@ -339,7 +328,7 @@
                     ],
                     [
                         "Scripts",
-                        "Countdown Object Resources"
+                        "CloudController"
                     ],
                     [
                         "Scripts",
@@ -513,6 +502,28 @@
                     [
                         "UI",
                         "SmashLogo"
+                    ],
+                    [
+                        "[Connected Lenses] Multiplayer Session"
+                    ],
+                    [
+                        "[Connected Lenses] Multiplayer Session",
+                        "Connected Lens Module"
+                    ],
+                    [
+                        "[Connected Lenses] Multiplayer Session",
+                        "Connected Lenses - Multiplayer Session"
+                    ],
+                    [
+                        "[Lens Cloud] Cloud Storage"
+                    ],
+                    [
+                        "[Lens Cloud] Cloud Storage",
+                        "CloudStorage Module"
+                    ],
+                    [
+                        "[Lens Cloud] Cloud Storage",
+                        "Lens Cloud - Persistent Cloud Storage"
                     ]
                 ]
             ]
@@ -524,18 +535,19 @@
                     "1656290351990769:330421",
                     "1656290420269289:340055",
                     "1656293105123690:87180",
+                    "1656380027422155:235493",
+                    "1656380027424120:235495",
                     "1656380027501011:236058",
                     "1656380027501838:236060",
                     "1656381857772017:627064",
                     "1656384099948721:712684",
-                    "1656384424002520:769379",
                     "1656444200573626:450304",
                     "1656449013139656:666629",
                     "1656456522188992:983690",
                     "1656461269977394:1775051",
                     "1656470260308270:2347849",
-                    "1656470278329077:2350237",
-                    "1656470278532853:2352502"
+                    "1656528398805136:460746",
+                    "1656536421798179:1880999"
                 ]
             ],
             "selectionSetList": ""
@@ -549,7 +561,7 @@
         },
         "PreviewUiComponent": {
             "preview_descriptor": {
-                "is_capture": "0",
+                "is_capture": "3",
                 "camera_type": "1"
             },
             "show_snap_ui": "true",
@@ -579,8 +591,8 @@
                     "1656456522301756:983883",
                     "1656456522309785:984545",
                     "1656456522341190:984700",
-                    "1656461270169878:1777149",
-                    "1656461270198863:1777309"
+                    "1656528399157775:463630",
+                    "1656528399183412:463869"
                 ]
             ]
         },
@@ -618,22 +630,6 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "0"
-                },
-                {
-                    "resId": "10",
-                    "uid": "1588296316843646:534374",
-                    "name": "Files\/File3.jpeg",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "11",
-                    "uid": "1588296316857901:534385",
-                    "name": "Files\/File5.jpeg",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
                 },
                 {
                     "resId": "12",
@@ -1186,6 +1182,46 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "242",
+                    "uid": "1656526340764658:70376",
+                    "name": "Files\/File474.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "243",
+                    "uid": "1656526340870758:70388",
+                    "name": "",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "244",
+                    "uid": "1656538985737108:2806916",
+                    "name": "Files\/File475.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "245",
+                    "uid": "1656538985779952:2806928",
+                    "name": "",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "246",
+                    "uid": "1656539229025925:2891372",
+                    "name": "Files\/File476.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -1580,6 +1616,398 @@
                                     "attachTop": "false"
                                 }
                             }
+                        },
+                        {
+                            "k": "1656528398942480:461946",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1656528399036681:462700",
+                            "v": {
+                                "isBasicMode": "false",
+                                "basicModeSetup": {
+                                    "fixWidth": "true",
+                                    "fixHeight": "true",
+                                    "attachBottom": "false",
+                                    "attachLeft": "true",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1656528399092113:463159",
+                            "v": {
+                                "isBasicMode": "false",
+                                "basicModeSetup": {
+                                    "fixWidth": "true",
+                                    "fixHeight": "true",
+                                    "attachBottom": "false",
+                                    "attachLeft": "true",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1656528399118247:463319",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1656528399134901:463470",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1656528399159382:463714",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "true",
+                                    "fixHeight": "true",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1656528399521928:467347",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1656528798996968:631495",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1656528799087195:632251",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1656536421975954:1882203",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1656536422100332:1882961",
+                            "v": {
+                                "isBasicMode": "false",
+                                "basicModeSetup": {
+                                    "fixWidth": "true",
+                                    "fixHeight": "true",
+                                    "attachBottom": "false",
+                                    "attachLeft": "true",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1656536422180719:1883424",
+                            "v": {
+                                "isBasicMode": "false",
+                                "basicModeSetup": {
+                                    "fixWidth": "true",
+                                    "fixHeight": "true",
+                                    "attachBottom": "false",
+                                    "attachLeft": "true",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1656536422206463:1883584",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1656536422232019:1883735",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1656536422264358:1883979",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "true",
+                                    "fixHeight": "true",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1656536422448123:1885368",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1656536422574251:1886130",
+                            "v": {
+                                "isBasicMode": "false",
+                                "basicModeSetup": {
+                                    "fixWidth": "true",
+                                    "fixHeight": "true",
+                                    "attachBottom": "false",
+                                    "attachLeft": "true",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1656536422651879:1886589",
+                            "v": {
+                                "isBasicMode": "false",
+                                "basicModeSetup": {
+                                    "fixWidth": "true",
+                                    "fixHeight": "true",
+                                    "attachBottom": "false",
+                                    "attachLeft": "true",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1656536422685241:1886749",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1656536422717568:1886904",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1656536422759511:1887148",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "true",
+                                    "fixHeight": "true",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1656536422793815:1887636",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1656536499954594:1971304",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1656536500103244:1972066",
+                            "v": {
+                                "isBasicMode": "false",
+                                "basicModeSetup": {
+                                    "fixWidth": "true",
+                                    "fixHeight": "true",
+                                    "attachBottom": "false",
+                                    "attachLeft": "true",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1656536500182408:1972529",
+                            "v": {
+                                "isBasicMode": "false",
+                                "basicModeSetup": {
+                                    "fixWidth": "true",
+                                    "fixHeight": "true",
+                                    "attachBottom": "false",
+                                    "attachLeft": "true",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1656536500218671:1972689",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1656536500245591:1972842",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1656536500282491:1973088",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "true",
+                                    "fixHeight": "true",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
                         }
                     ],
                     "generalData": ""
@@ -1633,7 +2061,38 @@
                 "42": "1656470278532853:2352502",
                 "43": "1656470278534900:2352504",
                 "44": "1656470278557068:2352662",
-                "45": "1656470278580828:2352820"
+                "45": "1656470278580828:2352820",
+                "46": "1656526340897822:70394",
+                "47": "1656528398805136:460746",
+                "48": "1656528398839377:461045",
+                "49": "1656528398873768:461346",
+                "50": "1656528398907875:461647",
+                "51": "1656528398969376:462102",
+                "52": "1656528399001963:462401",
+                "53": "1656528399059863:462860",
+                "54": "1656528798934868:630899",
+                "55": "1656528799024277:631655",
+                "56": "1656536421798179:1880999",
+                "57": "1656536421847299:1881302",
+                "58": "1656536421890074:1881601",
+                "59": "1656536421929631:1881900",
+                "60": "1656536422016521:1882363",
+                "61": "1656536422058874:1882662",
+                "62": "1656536422130658:1883121",
+                "63": "1656536422298706:1884463",
+                "64": "1656536422353081:1884766",
+                "65": "1656536422397463:1885065",
+                "66": "1656536422481982:1885528",
+                "67": "1656536422526836:1885827",
+                "68": "1656536422606613:1886290",
+                "69": "1656536499831772:1970398",
+                "70": "1656536499866304:1970702",
+                "71": "1656536499902935:1971001",
+                "72": "1656536500003953:1971464",
+                "73": "1656536500057937:1971767",
+                "74": "1656536500135907:1972226",
+                "75": "1656538985783649:2806934",
+                "76": "1656539700822549:2947691"
             }
         },
         "LayerComponent": {
@@ -1662,26 +2121,6 @@
         },
         "IFileManager": {
             "pathes": [
-                {
-                    "k": "3",
-                    "v": "Files\/File3.jpeg"
-                },
-                {
-                    "k": "4",
-                    "v": "Files\/File4.jpeg"
-                },
-                {
-                    "k": "5",
-                    "v": "Files\/File5.jpeg"
-                },
-                {
-                    "k": "6",
-                    "v": "Files\/File6.jpeg"
-                },
-                {
-                    "k": "7",
-                    "v": "Files\/File7.hdr"
-                },
                 {
                     "k": "165",
                     "v": "Files\/File165.mesh"
@@ -2189,6 +2628,18 @@
                 {
                     "k": "473",
                     "v": "Files\/File473.js"
+                },
+                {
+                    "k": "474",
+                    "v": "Files\/File474.js"
+                },
+                {
+                    "k": "475",
+                    "v": "Files\/File475.js"
+                },
+                {
+                    "k": "476",
+                    "v": "Files\/File476.js"
                 }
             ]
         },
@@ -2204,10 +2655,6 @@
         "IResourceController": {
             "public": {
                 "pathes": [
-                    {
-                        "k": "967",
-                        "v": "Echopark.hdr"
-                    },
                     {
                         "k": "1018",
                         "v": "Models\/bomba.fbx"
@@ -2455,6 +2902,26 @@
                     {
                         "k": "1139",
                         "v": "Scripts\/GameController.js"
+                    },
+                    {
+                        "k": "1140",
+                        "v": "[Connected Lenses] Multiplayer Session"
+                    },
+                    {
+                        "k": "1141",
+                        "v": "[Connected Lenses] Multiplayer Session\/Connected Lenses - Multiplayer Session.js"
+                    },
+                    {
+                        "k": "1142",
+                        "v": "[Lens Cloud] Cloud Storage"
+                    },
+                    {
+                        "k": "1143",
+                        "v": "[Lens Cloud] Cloud Storage\/Lens Cloud - Persistent Cloud Storage.js"
+                    },
+                    {
+                        "k": "1144",
+                        "v": "Scripts\/CloudController.js"
                     }
                 ],
                 "hashes": [
@@ -2644,15 +3111,15 @@
                     },
                     {
                         "k": "1020",
-                        "v": "f21da0d9b673ba95f19cb1be99cc50c9"
+                        "v": "349e33c5f959fc3da41ca36eca5fb9fa"
                     },
                     {
                         "k": "1021",
-                        "v": "b468da3fd05d310076bbfa3ca57ee82e"
+                        "v": "30ff78f9d4b10b31c24bd981b4a8e538"
                     },
                     {
                         "k": "1022",
-                        "v": "a27d4b0a6224cdcb755178cdaca62681"
+                        "v": "7a4c6bcfe7650b6483c64df51f6a4b28"
                     },
                     {
                         "k": "1023",
@@ -2660,19 +3127,19 @@
                     },
                     {
                         "k": "1025",
-                        "v": "a361a4e0f5ab9dec3c7646c4fdb08685"
+                        "v": "d500a4d123bcdc890af1e20089873f3f"
                     },
                     {
                         "k": "1026",
-                        "v": "c55f353e9f083e096883e16a0c328b57"
+                        "v": "ee122ae7875d1a601349931c4dc36de0"
                     },
                     {
                         "k": "1027",
-                        "v": "2e1d2e6d59ed3006641f403d751398f4"
+                        "v": "22dffca08e57219b58f447a427da2405"
                     },
                     {
                         "k": "1028",
-                        "v": "1c9f9f28275fb4a20f22e38e3068f605"
+                        "v": "5d2b319d4f99e0102c147ec914766770"
                     },
                     {
                         "k": "1029",
@@ -2852,51 +3319,51 @@
                     },
                     {
                         "k": "1074",
-                        "v": "c4c96bc6e64e2a77d0f7d22f550fadef"
+                        "v": "0cc83137be1c05bdc1e33e4521bb4556"
                     },
                     {
                         "k": "1075",
-                        "v": "099bb5e3e5a5c08a3a4a77c745799325"
+                        "v": "688552e0995edc82393b19fe430ffc40"
                     },
                     {
                         "k": "1076",
-                        "v": "4cccf011587ed5c4b33eee4b1143d59a"
+                        "v": "708ed673f2953d3de21ae3e1bc645c5e"
                     },
                     {
                         "k": "1077",
-                        "v": "9a3f512243773f332866a17c874bfc2b"
+                        "v": "e7f02772590c61142999c5f91004e702"
                     },
                     {
                         "k": "1078",
-                        "v": "350dc6fee80ff6221568e37b341e5bc6"
+                        "v": "bdb5405d4dd4750bb17b21101446c260"
                     },
                     {
                         "k": "1079",
-                        "v": "ad0dd21b2820462a7a9e2ce60148a23e"
+                        "v": "19c42337b98c3f3b9790b3b34275d74b"
                     },
                     {
                         "k": "1080",
-                        "v": "02fa91a0a21f1566d9274275b5041d27"
+                        "v": "ff12f34f9ac406291fc03c0ca9660dde"
                     },
                     {
                         "k": "1081",
-                        "v": "611523bbac274dd42b84ab2c68dcb4e6"
+                        "v": "196e55fe7c9e12dd1e8b24dd09327e15"
                     },
                     {
                         "k": "1082",
-                        "v": "b6deb64354575de6da13d44933115008"
+                        "v": "c1e266c9b6c7d18135acf205d981b59a"
                     },
                     {
                         "k": "1083",
-                        "v": "48c1dffcb61943658bfaeff4b00ac06b"
+                        "v": "c35a44f662033d10d516f26c6528ddaf"
                     },
                     {
                         "k": "1084",
-                        "v": "41e06066c46eb4ec6fdbd95459aa87a0"
+                        "v": "8a780405cf166ef06df4af60b8d54048"
                     },
                     {
                         "k": "1085",
-                        "v": "dcc772277c5d38197d44b2ef605407bf"
+                        "v": "30fef2591e8e63e0789f0d0720a9f625"
                     },
                     {
                         "k": "1089",
@@ -2956,7 +3423,7 @@
                     },
                     {
                         "k": "1107",
-                        "v": "83cd346df128202c9d520b5d174a3fea"
+                        "v": "cadc4b011ef426d4d64b148c64614d89"
                     },
                     {
                         "k": "1109",
@@ -3004,7 +3471,7 @@
                     },
                     {
                         "k": "1124",
-                        "v": "3e1522f509a8f57c33b59e0063bdc1e6"
+                        "v": "1e63678f7de96c598fc70989bd6cd1bd"
                     },
                     {
                         "k": "1125",
@@ -3036,7 +3503,7 @@
                     },
                     {
                         "k": "1136",
-                        "v": "7e1ca4548cc8c4df5af1df40b90f30d1"
+                        "v": "68828e55815d1ff114b404eba8962325"
                     },
                     {
                         "k": "1137",
@@ -3048,28 +3515,33 @@
                     },
                     {
                         "k": "1139",
-                        "v": "a60d85b2b2102f37e58b626e40670d10"
+                        "v": "39546bca4a85f664a1d278596667f37a"
+                    },
+                    {
+                        "k": "1141",
+                        "v": "dd0470e2f1bc24e62c1145d679cc9f4c"
+                    },
+                    {
+                        "k": "1143",
+                        "v": "9b120b1c15da6cb71abaa9fdc8551cbd"
+                    },
+                    {
+                        "k": "1144",
+                        "v": "b0852c7ebacb84d351dd5e61fca53171"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2022-06-28T22:24:14",
+                        "lastModified": "2022-06-29T17:43:32",
                         "name": "Public",
-                        "hash": "18c356d80c561c0ab088b5769eedf53a",
+                        "hash": "f4aa0d74943d98ca36dd826eabc03595",
                         "children": [
                             {
                                 "isFolder": "false",
                                 "lastModified": "2022-06-28T19:23:01",
                                 "name": "CountdownObject.oprfb",
                                 "hash": "3b37ed78512ded838e2d075164784aa3",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2022-06-07T19:30:56",
-                                "name": "Echopark.hdr",
-                                "hash": "0cf0e87a54f33218fcf92a12d7f0ede2",
                                 "children": ""
                             },
                             {
@@ -3117,9 +3589,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-06-28T22:39:09",
+                                "lastModified": "2022-06-29T18:52:15",
                                 "name": "Scripts",
-                                "hash": "dc7fd17bf3a0d50dc6c79c9048a6a141",
+                                "hash": "4cc391fa34a620760d1bbe4e53bf3aec",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -3129,16 +3601,23 @@
                                         "children": ""
                                     },
                                     {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-06-29T18:09:21",
+                                        "name": "CloudController.js",
+                                        "hash": "b0852c7ebacb84d351dd5e61fca53171",
+                                        "children": ""
+                                    },
+                                    {
                                         "isFolder": "true",
-                                        "lastModified": "2022-06-28T19:38:07",
+                                        "lastModified": "2022-06-29T16:51:08",
                                         "name": "Countdown Object Resources",
-                                        "hash": "5195848243bf8cf65ff0df2da80e6351",
+                                        "hash": "bf2e202c7dc1b4799f5bd8a52dd257b4",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-06-28T19:18:05",
+                                                "lastModified": "2022-06-29T16:51:08",
                                                 "name": "CountdownController.js",
-                                                "hash": "3e1522f509a8f57c33b59e0063bdc1e6",
+                                                "hash": "1e63678f7de96c598fc70989bd6cd1bd",
                                                 "children": ""
                                             },
                                             {
@@ -3159,16 +3638,16 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-06-28T22:39:09",
+                                        "lastModified": "2022-06-29T18:52:15",
                                         "name": "GameController.js",
-                                        "hash": "a60d85b2b2102f37e58b626e40670d10",
+                                        "hash": "39546bca4a85f664a1d278596667f37a",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-06-28T22:31:47",
+                                        "lastModified": "2022-06-29T18:39:35",
                                         "name": "ScoreController.js",
-                                        "hash": "7e1ca4548cc8c4df5af1df40b90f30d1",
+                                        "hash": "68828e55815d1ff114b404eba8962325",
                                         "children": ""
                                     }
                                 ]
@@ -3177,7 +3656,7 @@
                                 "isFolder": "true",
                                 "lastModified": "2022-06-28T19:37:24",
                                 "name": "UI",
-                                "hash": "78a6f92a5a7d4e64afb2821833a0a549",
+                                "hash": "49c5cbf384bdf3263bf9861e20d7cfea",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -3197,7 +3676,7 @@
                                         "isFolder": "true",
                                         "lastModified": "2022-06-27T21:33:47",
                                         "name": "Resources",
-                                        "hash": "12c1d1a165276c7769ec021eeecde663",
+                                        "hash": "f9dc4d730fc3597098bdac3edb7de30f",
                                         "children": [
                                             {
                                                 "isFolder": "false",
@@ -3274,9 +3753,9 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2022-06-28T23:03:04",
+                                                "lastModified": "2022-06-29T18:18:52",
                                                 "name": "Materials",
-                                                "hash": "6d947bd78bc6cee5f3d80499ffc37061",
+                                                "hash": "dccf76bd5e8e96aac5aac9c881f311ff",
                                                 "children": [
                                                     {
                                                         "isFolder": "false",
@@ -3287,9 +3766,9 @@
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-06-28T23:03:04",
+                                                        "lastModified": "2022-06-29T18:18:52",
                                                         "name": "Palette Material.lsmat",
-                                                        "hash": "45ecc69baa62f415c66fd18c7b10952c",
+                                                        "hash": "df98a20edae0d0a6ec2e92b300f4c140",
                                                         "children": ""
                                                     },
                                                     {
@@ -3462,6 +3941,50 @@
                                         "children": ""
                                     }
                                 ]
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2022-06-29T17:44:46",
+                                "name": "[Connected Lenses] Multiplayer Session",
+                                "hash": "51fbd7d9a7cb813c2509c522f571e46d",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-06-29T17:44:46",
+                                        "name": "Connected Lenses - Multiplayer Session.js",
+                                        "hash": "dd0470e2f1bc24e62c1145d679cc9f4c",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-06-29T14:12:20",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2022-06-29T17:58:23",
+                                "name": "[Lens Cloud] Cloud Storage",
+                                "hash": "025440ef52e01eef2bed09500b7b40cc",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-06-29T17:43:05",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-06-29T17:58:23",
+                                        "name": "Lens Cloud - Persistent Cloud Storage.js",
+                                        "hash": "9b120b1c15da6cb71abaa9fdc8551cbd",
+                                        "children": ""
+                                    }
+                                ]
                             }
                         ]
                     }
@@ -3525,50 +4048,6 @@
                         "publicId": "18446744073709551615",
                         "source": "",
                         "additional": ""
-                    },
-                    {
-                        "name": "Echopark",
-                        "type": "9",
-                        "subtype": "-1",
-                        "resourceId": "-1",
-                        "dependency": "2",
-                        "hidden": "false",
-                        "uid": "-1:-1",
-                        "fileId": "7",
-                        "originalId": "18446744073709551615",
-                        "publicId": "967",
-                        "source": "",
-                        "additional": "",
-                        "resources": [
-                            {
-                                "name": "Diff",
-                                "type": "1",
-                                "subtype": "9",
-                                "resourceId": "10",
-                                "dependency": "1",
-                                "hidden": "false",
-                                "uid": "1588296316843646:534374",
-                                "fileId": "3",
-                                "originalId": "4",
-                                "publicId": "18446744073709551615",
-                                "source": "",
-                                "additional": ""
-                            },
-                            {
-                                "name": "Specular",
-                                "type": "1",
-                                "subtype": "9",
-                                "resourceId": "11",
-                                "dependency": "1",
-                                "hidden": "false",
-                                "uid": "1588296316857901:534385",
-                                "fileId": "5",
-                                "originalId": "6",
-                                "publicId": "18446744073709551615",
-                                "source": "",
-                                "additional": ""
-                            }
-                        ]
                     },
                     {
                         "name": "UI",
@@ -5424,6 +5903,108 @@
                                 "publicId": "1139",
                                 "source": "C:\/Users\/mvjor\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudioXbliFfcHZqqT\/\/system\/\/emergencyFiles\/emergencyJs.js",
                                 "additional": ""
+                            },
+                            {
+                                "name": "CloudController",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "246",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1656539229025925:2891372",
+                                "fileId": "476",
+                                "originalId": "18446744073709551615",
+                                "publicId": "1144",
+                                "source": "C:\/Users\/mvjor\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudiolooeaXvfQNCm\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                                "additional": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "[Connected Lenses] Multiplayer Session",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "1140",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "Connected Lenses - Multiplayer Session",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "242",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1656526340764658:70376",
+                                "fileId": "474",
+                                "originalId": "18446744073709551615",
+                                "publicId": "1141",
+                                "source": "C:\/Users\/mvjor\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudiozoiTUeTTpQIy\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Connected Lens Module",
+                                "type": "25",
+                                "subtype": "0",
+                                "resourceId": "243",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1656526340870758:70388",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "18446744073709551615",
+                                "source": "",
+                                "additional": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "[Lens Cloud] Cloud Storage",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "1142",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "Lens Cloud - Persistent Cloud Storage",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "244",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1656538985737108:2806916",
+                                "fileId": "475",
+                                "originalId": "18446744073709551615",
+                                "publicId": "1143",
+                                "source": "C:\/Users\/mvjor\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudiolooeaXvfQNCm\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "CloudStorage Module",
+                                "type": "38",
+                                "subtype": "0",
+                                "resourceId": "245",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1656538985779952:2806928",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "18446744073709551615",
+                                "source": "",
+                                "additional": ""
                             }
                         ]
                     }
@@ -5433,7 +6014,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1656384099948721:712684"
+                    "1656461270071872:1775684"
                 ]
             }
         },
@@ -6846,6 +7427,14 @@
                 {
                     "k": "1656456452119019:970952",
                     "v": "7GRJ9agtlXc1Jn0XGVutU1"
+                },
+                {
+                    "k": "1656526340897822:70394",
+                    "v": "1xKmKO6ZW8xHdKUamnVS1g"
+                },
+                {
+                    "k": "1656538985783649:2806934",
+                    "v": "6QaN2c6MWfDek5eWa4HEVn"
                 }
             ]
         }

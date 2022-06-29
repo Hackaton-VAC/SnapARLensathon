@@ -1,21 +1,37 @@
 // -----JS CODE-----
 // @input Component.Text scoreText
+// @input Component.Text highScoreText
+// @input Component.Text timerText
+// @input int MOLE_POINTS;
+// @input int BOMB_POINTS;
+// @input int TIMER_SEC;
 
-var currentScore = 0;
-const MOLE_POINTS = 10;
-const BOMB_POINTS = 10;
+global.behaviorSystem.addCustomTriggerResponse("SMASH_MOLE", onSmashMole);
+global.behaviorSystem.addCustomTriggerResponse("SMASH_BOMB", onSmashBomb);
+global.behaviorSystem.addCustomTriggerResponse("SMASH_TIMER", onSmashTimer);
 
-initiate();
+var store = global.persistentStorageSystem.store;
 
 function initiate() {
-    script.createEvent("UpdateEvent").bind(onUpdate);
-    script.scoreText.text = currentScore.toString();
+    script.scoreText.text = global.gameData["ownScore"].toString();
+    script.highScoreText.text = store.getInt("highScore").toString();
 }
 
-function onUpdate() {
-    /* Aquí debería verse si colisionó con mole o con la bomba 
-        para saber si se resta o suma al contador del score    
-    */
-    var tempResult = currentScore + MOLE_POINTS;
-    script.scoreText.text = tempResult.toString();
+function onSmashMole() {
+    global.gameData["ownScore"] += script.MOLE_POINTS;
+    script.scoreText.text = global.gameData["ownScore"].toString();
 }
+
+function onSmashTimer() {
+    global.gameData["currentTime"] += script.TIMER_SEC;
+    script.timerText.text = global.gameData["currentTime"].toFixed(1).toString();
+}
+
+function onSmashBomb() {
+    global.gameData["ownScore"] -= script.BOMB_POINTS;
+    global.gameData["ownScore"] = global.gameData["ownScore"] < 0 ? 0 : global.gameData["ownScore"];
+    script.scoreText.text = global.gameData["ownScore"].toString();
+}
+
+script.api.resetScorer = initiate;
+global.scoreController = script.api;

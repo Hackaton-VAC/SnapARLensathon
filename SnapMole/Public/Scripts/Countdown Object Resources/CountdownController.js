@@ -35,7 +35,6 @@
 //@input Component.ScriptComponent callbackScript {"showIf":"callFunction"}
 //@input string callbackFunction {"showIf":"callFunction"}
 
-var currentTime = 0;
 var countdownStarted = false;
 
 initiate();
@@ -43,7 +42,7 @@ initiate();
 function initiate() {
     reset();    
     script.createEvent("UpdateEvent").bind(onUpdate);
-    script.countdownText.text = currentTime.toFixed(1).toString();
+    script.countdownText.text = global.gameData.currentTime.toFixed(1).toString();
 }
 
 if (script.playOnStart) {
@@ -54,28 +53,28 @@ if (script.playOnStart) {
 function onUpdate() {
     
     if (countdownStarted) {
-        currentTime -= getDeltaTime();
-        if (currentTime <= 0) {
+        global.gameData.currentTime -= getDeltaTime();
+        if (global.gameData.currentTime <= 0) {
             countdownCompleted();
-            currentTime = 0;
+            global.gameData.currentTime = 0;
             countdownStarted = false;
         }
         
         
         if (script.countdownText) {
-            script.countdownText.text = currentTime.toFixed(1).toString();        
+            script.countdownText.text = global.gameData.currentTime.toFixed(1).toString();        
         }
 
     }    
 }  
 
 function reset() {
-    currentTime = script.totalTime;
+    global.gameData.currentTime = script.totalTime;
 }
 
 function startTimer() {
     countdownStarted = true;
-    currentTime = script.totalTime;
+    global.gameData.currentTime = script.totalTime;
 }
 
 function pauseTimer() {
