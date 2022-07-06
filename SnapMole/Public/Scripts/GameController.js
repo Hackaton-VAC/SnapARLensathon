@@ -16,6 +16,8 @@ global.gameData = {"startGame": false, "ownScore": 0,
                 "opponentScore": 0, "currentTime": 0,
                 "multiplayer": false};
 
+
+
 function startGame() {
     print("start")
     global.gameData.gameStarted = true;
@@ -27,7 +29,7 @@ function startGame() {
     global.countdownController.startTimer();
     
 }
-
+ 
 function finishGame() {
     global.gameData.gameStarted = false;
     var event = script.createEvent("DelayedCallbackEvent");
@@ -56,7 +58,7 @@ function finishGame() {
 function goToMenu() {
     script.endScene.enabled = false;
     script.menuScene.enabled = true;
-    
+    global.actions.setFlowState(global.FlowState.SESSION_TYPE_SELECT);
 }
 
 script.createEvent("UpdateEvent").bind(function(){
@@ -64,3 +66,5 @@ script.createEvent("UpdateEvent").bind(function(){
         //print("JUGANDO");
     }
 });
+
+global.startGame = startGame;
