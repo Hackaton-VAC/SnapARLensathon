@@ -5,12 +5,13 @@
 
 const utils = global.utils;
 
-var log = utils.makeLogger('ColocatedController: ');
+var log = function(a){};//utils.makeLogger('ColocatedController: ');
 
 //script.colocatedTrackingComponent.enabled = false;
 //script.deviceTrackingComponent.enabled = true;
 
 // create a global reference to this
+
 global.connectedController = script;
 
 //------------------------------
@@ -90,10 +91,6 @@ var actions = (function (initialState) {
         setFlowState: function (uiFlowState) {
             log('FlowState now:', uiFlowState);
             setState({flowState: uiFlowState});
-            if (uiFlowState == FlowState.DONE) {
-                log('StartGame');                
-                global.startGame();
-            }
         },
         setBuildingProgress: function (mapBuildingProgress) {
             setState({mapBuildingProgress: mapBuildingProgress});
@@ -671,5 +668,4 @@ script.api.getConnected = function () {
     return connected;
 }
 
-global.actions = actions;
-global.FlowState = FlowState;
+script.api.actions = actions;
