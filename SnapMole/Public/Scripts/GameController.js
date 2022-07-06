@@ -57,7 +57,7 @@ cc.onStateChange(function(state) {
         else if (state.sessionType == cc.SessionType.REMOTE) {
             script.menuScene.enabled = false;
             script.waitingScene.enabled = true;
-            global.players .myUserId = state.userId;
+            global.players.myUserId = state.userId;
             
             
             
@@ -93,7 +93,7 @@ function activeUserCount() {
 cc.events.on(cc.EventType.USER_JOINED_SESSION, function(userInfo) {
     if (activeUserCount() == 1){
         global.players.opponentUserId = userInfo.userId;
-        // Iniciamos el juego. startGame() quita la escene 'waitingPlayer' que se colocó
+        // Iniciamos el juego. startGame() quita la escene 'waitingScene' que se colocó
         // previamente
         startGame();   
         global.logToScreen(cc.getState().hasJoined)
