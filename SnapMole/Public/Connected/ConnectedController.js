@@ -5,7 +5,7 @@
 
 const utils = global.utils;
 
-var log = function(a){};//utils.makeLogger('ColocatedController: ');
+var log = function(a){ } //utils.makeLogger('ColocatedController: ') };
 
 //script.colocatedTrackingComponent.enabled = false;
 //script.deviceTrackingComponent.enabled = true;
@@ -13,6 +13,8 @@ var log = function(a){};//utils.makeLogger('ColocatedController: ');
 // create a global reference to this
 
 global.connectedController = script;
+
+
 
 //------------------------------
 // States for ColocatedBehaviour
@@ -25,14 +27,14 @@ const FlowState = {
     SESSION_TYPE_SELECT: 'session type select',
     
     // Build a map of a room
-    //PROMPT_TO_CREATE_COLOCATED: 'prompt to create colocated',
-    //CREATING_COLOCATED: 'creating colocated',
-    //UPLOADING_COLOCATED: 'uploading colocated',
-    /*DOWNLOADING_COLOCATED: 'downloading colocated',
+    PROMPT_TO_CREATE_COLOCATED: 'prompt to create colocated',
+    CREATING_COLOCATED: 'creating colocated',
+    UPLOADING_COLOCATED: 'uploading colocated',
+    DOWNLOADING_COLOCATED: 'downloading colocated',
     COLOCATED_CREATED_SNAPCODE: 'colocated created snapcode',
     SNAPCODE_USED: 'snapcode used',
     INITIATOR_WAITING_FOR_TRACKING: 'initiator waiting for tracking',
-    JOINER_WAITING_FOR_TRACKING: 'joiner waiting for tracking',*/
+    JOINER_WAITING_FOR_TRACKING: 'joiner waiting for tracking',
     // Eroor
     ERRORED: 'error',
     // Finished or joined a session
@@ -89,7 +91,7 @@ var actions = (function (initialState) {
     
     return {
         setFlowState: function (uiFlowState) {
-            log('FlowState now:', uiFlowState);
+            print(">>>>" + uiFlowState)
             setState({flowState: uiFlowState});
         },
         setBuildingProgress: function (mapBuildingProgress) {
@@ -512,6 +514,7 @@ var warnAttemptingToSendBeforeConnection = utils.once(function () {
 script.api.sendStringMessage = function (message) {
     var multiplayerSession = connected.getMultiplayerSession();
     if (!multiplayerSession) {
+        
         warnAttemptingToSendBeforeConnection();
     } else {
         multiplayerSession.sendMessageWithTimeout(message, -1);

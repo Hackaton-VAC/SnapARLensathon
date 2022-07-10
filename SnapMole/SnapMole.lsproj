@@ -3,7 +3,7 @@
     "document_id": "OfYgOTRjhyKOYGWZpbwC",
     "original_document_id": "OfYgOTRjhyKOYGWZpbwC",
     "version": "29",
-    "lastChanged": "1657091136222",
+    "lastChanged": "1657411739207",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -33,7 +33,7 @@
                 [
                     [
                         "Connected",
-                        "Connected Lens Module 2"
+                        "Connected Lens Module"
                     ],
                     [
                         "Connected",
@@ -56,9 +56,6 @@
                         "Utils"
                     ],
                     [
-                        "ConnectedUI"
-                    ],
-                    [
                         "ConnectedUI",
                         "Materials"
                     ],
@@ -70,7 +67,17 @@
                     [
                         "ConnectedUI",
                         "Materials",
+                        "Arrow 2"
+                    ],
+                    [
+                        "ConnectedUI",
+                        "Materials",
                         "Landmarks2D"
+                    ],
+                    [
+                        "ConnectedUI",
+                        "Materials",
+                        "Landmarks2D 2"
                     ],
                     [
                         "ConnectedUI",
@@ -85,12 +92,27 @@
                     [
                         "ConnectedUI",
                         "Materials",
+                        "ProgressBar 2"
+                    ],
+                    [
+                        "ConnectedUI",
+                        "Materials",
+                        "Spinner"
+                    ],
+                    [
+                        "ConnectedUI",
+                        "Materials",
                         "Spinner 2"
                     ],
                     [
                         "ConnectedUI",
                         "Materials",
                         "UICircle"
+                    ],
+                    [
+                        "ConnectedUI",
+                        "Materials",
+                        "UICircle 2"
                     ],
                     [
                         "ConnectedUI",
@@ -104,7 +126,17 @@
                     ],
                     [
                         "ConnectedUI",
+                        "Materials",
+                        "UnlitGradient 2"
+                    ],
+                    [
+                        "ConnectedUI",
                         "Models"
+                    ],
+                    [
+                        "ConnectedUI",
+                        "Models",
+                        "ArrowAnimation"
                     ],
                     [
                         "ConnectedUI",
@@ -119,6 +151,11 @@
                     [
                         "ConnectedUI",
                         "Models",
+                        "ArrowPrefab"
+                    ],
+                    [
+                        "ConnectedUI",
+                        "Models",
                         "ArrowPrefab 2"
                     ],
                     [
@@ -129,20 +166,22 @@
                     [
                         "ConnectedUI",
                         "Models",
+                        "Colocated Landmarks 2D Mesh 2"
+                    ],
+                    [
+                        "ConnectedUI",
+                        "Models",
                         "Colocated Landmarks 3D Mesh"
                     ],
                     [
                         "ConnectedUI",
-                        "Scripts"
+                        "Models",
+                        "Colocated Landmarks 3D Mesh 2"
                     ],
                     [
                         "ConnectedUI",
                         "Scripts",
                         "Arrow"
-                    ],
-                    [
-                        "ConnectedUI",
-                        "Textures"
                     ],
                     [
                         "ConnectedUI",
@@ -178,6 +217,11 @@
                         "ConnectedUI",
                         "Textures",
                         "SampleSnapcode"
+                    ],
+                    [
+                        "ConnectedUI",
+                        "Textures",
+                        "ScanningAnimation"
                     ],
                     [
                         "ConnectedUI",
@@ -1143,17 +1187,6 @@
                         "TopoTitle"
                     ],
                     [
-                        "[Connected Lenses] Multiplayer Session"
-                    ],
-                    [
-                        "[Connected Lenses] Multiplayer Session",
-                        "Connected Lens Module"
-                    ],
-                    [
-                        "[Connected Lenses] Multiplayer Session",
-                        "Connected Lenses - Multiplayer Session"
-                    ],
-                    [
                         "[Lens Cloud] Cloud Storage"
                     ],
                     [
@@ -1170,19 +1203,18 @@
         "SceneTreeUiComponent": {
             "collapsedList": [
                 [
-                    "1656290351990769:330421",
-                    "1656290420269289:340055",
-                    "1656293105123690:87180",
+                    "1656379994540227:225388",
+                    "1656380027422155:235493",
                     "1656380027424120:235495",
                     "1656380027501011:236058",
                     "1656380027501838:236060",
                     "1656381857772017:627064",
-                    "1656384424002520:769379",
+                    "1656384099948721:712684",
                     "1656444200573626:450304",
                     "1656449013139656:666629",
                     "1656456522188992:983690",
                     "1656461269977394:1775051",
-                    "1656470260308270:2347849",
+                    "1657061770327795:96823",
                     "1657061770371720:96890",
                     "1657061770540590:97686",
                     "1657061770760511:98545",
@@ -1193,7 +1225,9 @@
                     "1657061772722540:107412",
                     "1657061773006267:108288",
                     "1657061773170878:108823",
-                    "1657061773608276:110553"
+                    "1657061773608276:110553",
+                    "1657062474295823:1253548",
+                    "1657083018213138:3935847"
                 ]
             ],
             "selectionSetList": ""
@@ -1207,7 +1241,7 @@
         },
         "PreviewUiComponent": {
             "preview_descriptor": {
-                "is_capture": "0",
+                "is_capture": "3",
                 "camera_type": "1"
             },
             "show_snap_ui": "true",
@@ -1237,6 +1271,7 @@
                     "1656456522301756:983883",
                     "1656456522309785:984545",
                     "1656456522341190:984700",
+                    "1656461270274953:1777634",
                     "1656528399157775:463630",
                     "1656528399183412:463869",
                     "1657061861959049:253122",
@@ -1832,22 +1867,6 @@
                     "flags": "1"
                 },
                 {
-                    "resId": "242",
-                    "uid": "1656526340764658:70376",
-                    "name": "Files\/File474.js",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "243",
-                    "uid": "1656526340870758:70388",
-                    "name": "",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "0"
-                },
-                {
                     "resId": "244",
                     "uid": "1656538985737108:2806916",
                     "name": "Files\/File475.js",
@@ -1902,14 +1921,6 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
-                },
-                {
-                    "resId": "251",
-                    "uid": "1657061762769176:96107",
-                    "name": "",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "0"
                 },
                 {
                     "resId": "252",
@@ -2750,6 +2761,110 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "369",
+                    "uid": "1657403456484637:3843183",
+                    "name": "sceneObject_0",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "371",
+                    "uid": "1657403472390186:3928620",
+                    "name": "",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "372",
+                    "uid": "1657403472478832:3928648",
+                    "name": "Files\/File723",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "373",
+                    "uid": "1657403472671596:3928680",
+                    "name": "Files\/File726",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "374",
+                    "uid": "1657403472828218:3928730",
+                    "name": "Files\/File728",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "375",
+                    "uid": "1657403473000517:3928774",
+                    "name": "Files\/File730",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "376",
+                    "uid": "1657403473258417:3928841",
+                    "name": "Files\/File732",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "377",
+                    "uid": "1657403473522272:3928896",
+                    "name": "Files\/File734",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "378",
+                    "uid": "1657403473685728:3928929",
+                    "name": "Files\/File736",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "379",
+                    "uid": "1657403473752818:3928955",
+                    "name": "",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "380",
+                    "uid": "1657403473753622:3928971",
+                    "name": "",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "381",
+                    "uid": "1657403473754351:3928984",
+                    "name": "",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "382",
+                    "uid": "1657403473755110:3928991",
+                    "name": "sceneObject_78",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
                 }
             ],
             "MaterialUpdateManager": {
@@ -4440,10 +4555,6 @@
                     "v": "Files\/File473.js"
                 },
                 {
-                    "k": "474",
-                    "v": "Files\/File474.js"
-                },
-                {
                     "k": "475",
                     "v": "Files\/File475.js"
                 },
@@ -5358,6 +5469,78 @@
                 {
                     "k": "703",
                     "v": "Files\/File703.pvr"
+                },
+                {
+                    "k": "723",
+                    "v": "Files\/File723"
+                },
+                {
+                    "k": "724",
+                    "v": "Files\/File724"
+                },
+                {
+                    "k": "725",
+                    "v": "Files\/File725"
+                },
+                {
+                    "k": "726",
+                    "v": "Files\/File726"
+                },
+                {
+                    "k": "727",
+                    "v": "Files\/File727.lsmat"
+                },
+                {
+                    "k": "728",
+                    "v": "Files\/File728"
+                },
+                {
+                    "k": "729",
+                    "v": "Files\/File729.lsmat"
+                },
+                {
+                    "k": "730",
+                    "v": "Files\/File730"
+                },
+                {
+                    "k": "731",
+                    "v": "Files\/File731.lsmat"
+                },
+                {
+                    "k": "732",
+                    "v": "Files\/File732"
+                },
+                {
+                    "k": "733",
+                    "v": "Files\/File733.lsmat"
+                },
+                {
+                    "k": "734",
+                    "v": "Files\/File734"
+                },
+                {
+                    "k": "735",
+                    "v": "Files\/File735.lsmat"
+                },
+                {
+                    "k": "736",
+                    "v": "Files\/File736"
+                },
+                {
+                    "k": "737",
+                    "v": "Files\/File737.lsmat"
+                },
+                {
+                    "k": "738",
+                    "v": "Files\/File738.oprfb"
+                },
+                {
+                    "k": "739",
+                    "v": "Files\/File739.oprfb"
+                },
+                {
+                    "k": "740",
+                    "v": "Files\/File740"
                 }
             ]
         },
@@ -5620,14 +5803,6 @@
                     {
                         "k": "1139",
                         "v": "Scripts\/GameController.js"
-                    },
-                    {
-                        "k": "1140",
-                        "v": "[Connected Lenses] Multiplayer Session"
-                    },
-                    {
-                        "k": "1141",
-                        "v": "[Connected Lenses] Multiplayer Session\/Connected Lenses - Multiplayer Session.js"
                     },
                     {
                         "k": "1142",
@@ -6100,6 +6275,38 @@
                     {
                         "k": "11684",
                         "v": "Log_To_Screen\/TextLogger.js"
+                    },
+                    {
+                        "k": "11698",
+                        "v": "ConnectedUI\/Textures\/ScanningAnimation"
+                    },
+                    {
+                        "k": "11699",
+                        "v": "ConnectedUI\/Materials\/ProgressBar 2.lsmat"
+                    },
+                    {
+                        "k": "11700",
+                        "v": "ConnectedUI\/Materials\/UnlitGradient 2.lsmat"
+                    },
+                    {
+                        "k": "11701",
+                        "v": "ConnectedUI\/Materials\/Spinner.lsmat"
+                    },
+                    {
+                        "k": "11702",
+                        "v": "ConnectedUI\/Materials\/Arrow 2.lsmat"
+                    },
+                    {
+                        "k": "11703",
+                        "v": "ConnectedUI\/Materials\/Landmarks2D 2.lsmat"
+                    },
+                    {
+                        "k": "11704",
+                        "v": "ConnectedUI\/Materials\/UICircle 2.lsmat"
+                    },
+                    {
+                        "k": "11705",
+                        "v": "ConnectedUI\/Models\/ArrowPrefab.oprfb"
                     }
                 ],
                 "hashes": [
@@ -6289,15 +6496,15 @@
                     },
                     {
                         "k": "1020",
-                        "v": "bb266d837e130933ce1c62f807108086"
+                        "v": "e2a1059166a2565f5b86ae8c375809bd"
                     },
                     {
                         "k": "1021",
-                        "v": "bf106722c0faff51af4cd42b956b4dcc"
+                        "v": "6bbacd95f322e9ec32e82cf3b17fd3bc"
                     },
                     {
                         "k": "1022",
-                        "v": "9ebf5d21f85c2beac1dc776b0cdb874f"
+                        "v": "c911fb0a4506081c624750093631f677"
                     },
                     {
                         "k": "1023",
@@ -6305,19 +6512,19 @@
                     },
                     {
                         "k": "1025",
-                        "v": "878214c6946d65f631e287e70101f583"
+                        "v": "2693e67bc76bfcd085ab0682bac2911c"
                     },
                     {
                         "k": "1026",
-                        "v": "0cc353fef3364d7e4dd045bb512de6bf"
+                        "v": "e576ca2abc1b7c766ba460e45dd582b4"
                     },
                     {
                         "k": "1027",
-                        "v": "33b3c6b1ee64ec1e2413fc1105f86a2c"
+                        "v": "51320fd55bdd197dffcba4ef02d5daec"
                     },
                     {
                         "k": "1028",
-                        "v": "32bba77b77343697eaae8bf5aa2eac05"
+                        "v": "71cdda30daab4997a99cffa8271db436"
                     },
                     {
                         "k": "1029",
@@ -6497,51 +6704,51 @@
                     },
                     {
                         "k": "1074",
-                        "v": "0a52c7237041f2df58ad90cbc4c3161d"
+                        "v": "ab4b9166e923a03a2a4325261c9a5986"
                     },
                     {
                         "k": "1075",
-                        "v": "8b8a7c2bd59cc9489bfb40812475b07d"
+                        "v": "9f092fc60cd273ec2863696fb5fbe574"
                     },
                     {
                         "k": "1076",
-                        "v": "27648dc26eb730b3792f1933aaccc123"
+                        "v": "cefef71e7602a5cead6f2cc95923d116"
                     },
                     {
                         "k": "1077",
-                        "v": "aec7fc82fa169c6e6ace1d2a3cbadbd3"
+                        "v": "9354ded6ddb13ac793aff0be142c5564"
                     },
                     {
                         "k": "1078",
-                        "v": "91b910a416d9b570e2f72139d5cdaefa"
+                        "v": "f780dba19ccb8747d07a3f312f2590f8"
                     },
                     {
                         "k": "1079",
-                        "v": "64e549236b5b22bdac23e4cee6b68645"
+                        "v": "3fa77c509c94232ed45b36241987899b"
                     },
                     {
                         "k": "1080",
-                        "v": "a5529a375308d35e419c5aa7729ea150"
+                        "v": "84972f3b21436498b3a15ffffec7b7c8"
                     },
                     {
                         "k": "1081",
-                        "v": "06f984a8883678487e86119f61f2c384"
+                        "v": "2162915636a6193735607b6e6eafbddc"
                     },
                     {
                         "k": "1082",
-                        "v": "9dd47249d16393ac99d4cfd90d5d17d8"
+                        "v": "c9f51a2245c4b9990a6c0b9adada0aee"
                     },
                     {
                         "k": "1083",
-                        "v": "90921ee872e4d8006d39d63613f42a90"
+                        "v": "08f30e6623661f2a5e4b745c67fa1a13"
                     },
                     {
                         "k": "1084",
-                        "v": "3fd379e52ceb4a442ac7f3d4e22af37f"
+                        "v": "a447e1db0860cbf1f42f862d9b4202a6"
                     },
                     {
                         "k": "1085",
-                        "v": "4bc2477a627257b70d532d68c7659f89"
+                        "v": "37f4eb9b7b03654e8ff09cd83d171f82"
                     },
                     {
                         "k": "1089",
@@ -6601,7 +6808,7 @@
                     },
                     {
                         "k": "1107",
-                        "v": "f1786d7b4697bd946fee864dbdd40a17"
+                        "v": "1ba8160b2c87771e264fd5ce8eaf0bc9"
                     },
                     {
                         "k": "1109",
@@ -6681,7 +6888,7 @@
                     },
                     {
                         "k": "1136",
-                        "v": "68828e55815d1ff114b404eba8962325"
+                        "v": "8c8f1b20cd5629503f0e48f0dd49e2d1"
                     },
                     {
                         "k": "1137",
@@ -6693,7 +6900,7 @@
                     },
                     {
                         "k": "1139",
-                        "v": "b684a47c7a972d49a445eb73ec22799b"
+                        "v": "cd7299466266928452639e47228eeebe"
                     },
                     {
                         "k": "1141",
@@ -6709,7 +6916,7 @@
                     },
                     {
                         "k": "1146",
-                        "v": "b5509ec6c30e1b388efcb2d0808ae743"
+                        "v": "2bdd787f6a33be315009b9461be873cb"
                     },
                     {
                         "k": "1147",
@@ -6773,11 +6980,11 @@
                     },
                     {
                         "k": "1166",
-                        "v": "214c388fb3123abc66028f1dd3ce00a7"
+                        "v": "b19279b9c2faf4c96404fd7e2c845429"
                     },
                     {
                         "k": "1167",
-                        "v": "13c4df234c4399450275109d723a5e6f"
+                        "v": "29bb024f2c310c2fda7f1eadad47df39"
                     },
                     {
                         "k": "1168",
@@ -6785,15 +6992,15 @@
                     },
                     {
                         "k": "1169",
-                        "v": "8ac9c9b1f254ce3999678ad953a0357e"
+                        "v": "5d5ca61e6ba84678fe5cb22b9f6eb982"
                     },
                     {
                         "k": "1170",
-                        "v": "20b57fda39fe1bbb6e0df3889cf86676"
+                        "v": "9819f2e6cee6bf3b6e310abe1e2b9c44"
                     },
                     {
                         "k": "1171",
-                        "v": "4ae164a04201deffbbc8ff342f764956"
+                        "v": "50540ccd9989d44f51378213f39da1bb"
                     },
                     {
                         "k": "1172",
@@ -7130,14 +7337,86 @@
                     {
                         "k": "11684",
                         "v": "8d5001fc01941e40f12689d862c35dac"
+                    },
+                    {
+                        "k": "11688",
+                        "v": "174d14bb5eada8411e97533dc1417984"
+                    },
+                    {
+                        "k": "11689",
+                        "v": "7f7999776e8bc7681082a35a43df3219"
+                    },
+                    {
+                        "k": "11690",
+                        "v": "fe54fe71b8d297092a3d22806df6c184"
+                    },
+                    {
+                        "k": "11691",
+                        "v": "662af6c55b4afec01fd00920b15f5088"
+                    },
+                    {
+                        "k": "11692",
+                        "v": "db216ccfd428969627341f1a96a032a5"
+                    },
+                    {
+                        "k": "11693",
+                        "v": "405a583927aeb7026035e4e69a29fa6f"
+                    },
+                    {
+                        "k": "11694",
+                        "v": "652d91ae06623e04de441be6f3984047"
+                    },
+                    {
+                        "k": "11695",
+                        "v": "d19fe37ca54b49da9476b0e0129ca194"
+                    },
+                    {
+                        "k": "11696",
+                        "v": "7b42e82d4e62e0caede3b4e4be8f1273"
+                    },
+                    {
+                        "k": "11697",
+                        "v": "174d14bb5eada8411e97533dc1417984"
+                    },
+                    {
+                        "k": "11698",
+                        "v": "7f7999776e8bc7681082a35a43df3219"
+                    },
+                    {
+                        "k": "11699",
+                        "v": "97c10c53483aa2fd13440096020b005a"
+                    },
+                    {
+                        "k": "11700",
+                        "v": "a9b73ec67fa4f900cf35ade9f1b856af"
+                    },
+                    {
+                        "k": "11701",
+                        "v": "ee46b7801c3f6bd1e6b6c57ce9e1b854"
+                    },
+                    {
+                        "k": "11702",
+                        "v": "78fd6a4540701098c40314edc9b242e5"
+                    },
+                    {
+                        "k": "11703",
+                        "v": "058c987db7bdf1c8b538031ad8484a4c"
+                    },
+                    {
+                        "k": "11704",
+                        "v": "53b76eeae08297f0a974d34aea139296"
+                    },
+                    {
+                        "k": "11705",
+                        "v": "c8a03c376a87e1bb016a5073fc7e7644"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2022-07-06T01:51:49",
+                        "lastModified": "2022-07-09T18:43:22",
                         "name": "Public",
-                        "hash": "d7b7ed9582e66e93c4607786433b2ada",
+                        "hash": "01086ba35a2d7956d0640a37dcddcee4",
                         "children": [
                             {
                                 "isFolder": "false",
@@ -7150,7 +7429,7 @@
                                 "isFolder": "true",
                                 "lastModified": "2022-07-06T00:14:58",
                                 "name": "UI",
-                                "hash": "01b87e97805fb9c77121e872d10f4121",
+                                "hash": "b6fb6c6237675dcc567f3290c0a12ccf",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -7163,7 +7442,7 @@
                                         "isFolder": "true",
                                         "lastModified": "2022-06-29T14:04:16",
                                         "name": "Resources",
-                                        "hash": "796804ea8fc492ab48e7ccd43e4d8a41",
+                                        "hash": "715c0a18f52be2fe557c2cb9a4666ad5",
                                         "children": [
                                             {
                                                 "isFolder": "true",
@@ -7261,15 +7540,15 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2022-07-06T00:14:58",
+                                                "lastModified": "2022-07-09T19:57:59",
                                                 "name": "Materials",
-                                                "hash": "61baf275866be41a8206a2c6b8188d4b",
+                                                "hash": "36c57810d5d6384b918be06373f6e48e",
                                                 "children": [
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-07-06T00:14:58",
+                                                        "lastModified": "2022-07-09T19:57:59",
                                                         "name": "Palette Material.lsmat",
-                                                        "hash": "4a0cb06340d516d479d2cabc79d11716",
+                                                        "hash": "6893d2e2238800089488164633d016f3",
                                                         "children": ""
                                                     },
                                                     {
@@ -7444,28 +7723,6 @@
                                     {
                                         "isFolder": "false",
                                         "lastModified": "2022-06-29T14:04:16",
-                                        "name": "folder.lock",
-                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                        "children": ""
-                                    }
-                                ]
-                            },
-                            {
-                                "isFolder": "true",
-                                "lastModified": "2022-07-06T00:14:58",
-                                "name": "[Connected Lenses] Multiplayer Session",
-                                "hash": "51fbd7d9a7cb813c2509c522f571e46d",
-                                "children": [
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2022-07-06T00:14:58",
-                                        "name": "Connected Lenses - Multiplayer Session.js",
-                                        "hash": "dd0470e2f1bc24e62c1145d679cc9f4c",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2022-07-06T00:14:58",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -8065,9 +8322,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-07-06T02:15:24",
+                                "lastModified": "2022-07-09T19:13:56",
                                 "name": "Connected",
-                                "hash": "b981cd4496000b9b2bd98dd674dd362f",
+                                "hash": "6664b9760007e55faf4ec94a11c5cdb4",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -8078,9 +8335,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-07-06T02:15:23",
+                                        "lastModified": "2022-07-09T19:13:56",
                                         "name": "ConnectedController.js",
-                                        "hash": "b5509ec6c30e1b388efcb2d0808ae743",
+                                        "hash": "2bdd787f6a33be315009b9461be873cb",
                                         "children": ""
                                     },
                                     {
@@ -8173,9 +8430,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-07-06T03:04:37",
+                                "lastModified": "2022-07-09T20:08:12",
                                 "name": "Scripts",
-                                "hash": "1ded06b5f039df3cb8a088083dcc035e",
+                                "hash": "785be4f5136912fec8a657cd2ac23cd1",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -8186,9 +8443,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-07-06T00:14:58",
+                                        "lastModified": "2022-07-09T17:23:32",
                                         "name": "ScoreController.js",
-                                        "hash": "68828e55815d1ff114b404eba8962325",
+                                        "hash": "8c8f1b20cd5629503f0e48f0dd49e2d1",
                                         "children": ""
                                     },
                                     {
@@ -8222,9 +8479,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-07-06T03:04:37",
+                                        "lastModified": "2022-07-09T20:08:12",
                                         "name": "GameController.js",
-                                        "hash": "b684a47c7a972d49a445eb73ec22799b",
+                                        "hash": "cd7299466266928452639e47228eeebe",
                                         "children": ""
                                     },
                                     {
@@ -8240,13 +8497,13 @@
                                 "isFolder": "true",
                                 "lastModified": "2022-07-06T00:14:58",
                                 "name": "ConnectedUI",
-                                "hash": "fe63c2992c7c238e49b8fd72122470c6",
+                                "hash": "c87c365547c8d0a54ae9ef6a21af85fb",
                                 "children": [
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2022-07-06T00:14:58",
+                                        "lastModified": "2022-07-09T17:51:12",
                                         "name": "Textures",
-                                        "hash": "a95ed771efd9e3c25ee3c2dfff77f6a8",
+                                        "hash": "3f9875b1b90430987aec8f2a899c0537",
                                         "children": [
                                             {
                                                 "isFolder": "false",
@@ -8282,6 +8539,28 @@
                                                 "name": "BlockDrawingSplash.png",
                                                 "hash": "318876392c441c9f596253881af41c33",
                                                 "children": ""
+                                            },
+                                            {
+                                                "isFolder": "true",
+                                                "lastModified": "2022-07-09T17:51:12",
+                                                "name": "ScanningAnimation",
+                                                "hash": "5eae1e3efed4f8d49bcda0fb0b89ff07",
+                                                "children": [
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2022-07-09T17:51:12",
+                                                        "name": "atlas_0.png",
+                                                        "hash": "f1cdc79b0d30d32a9724b872701904c6",
+                                                        "children": ""
+                                                    },
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2022-07-09T17:51:12",
+                                                        "name": "animation.t3d",
+                                                        "hash": "27f01633b221a2ca1cd762d2fb3ee4ee",
+                                                        "children": ""
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "isFolder": "true",
@@ -8344,29 +8623,29 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2022-07-06T00:14:58",
+                                        "lastModified": "2022-07-09T19:58:01",
                                         "name": "Materials",
-                                        "hash": "a9d2e0b63e773168b0591c77fe0af4b5",
+                                        "hash": "ba6bd1d3f079692b72f503b5c35a6cf6",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-06T00:14:58",
+                                                "lastModified": "2022-07-09T19:58:01",
                                                 "name": "UnlitGradient.lsmat",
-                                                "hash": "8bb298cdb1661b52787ebec021c66be6",
+                                                "hash": "6488e1c5144ae9befc6b151c065095b2",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-06T00:14:58",
+                                                "lastModified": "2022-07-09T19:58:01",
                                                 "name": "UICircle.lsmat",
-                                                "hash": "43161367167b18dd04bc87ff4676591a",
+                                                "hash": "7726a142a16b422ceeb79d13f05d36eb",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-06T00:14:58",
+                                                "lastModified": "2022-07-09T19:58:01",
                                                 "name": "Spinner 2.lsmat",
-                                                "hash": "222b91f09c6d32d29756988d79f600d8",
+                                                "hash": "71255d1cba4b96eb44516e61952c58ea",
                                                 "children": ""
                                             },
                                             {
@@ -8378,6 +8657,13 @@
                                             },
                                             {
                                                 "isFolder": "false",
+                                                "lastModified": "2022-07-09T17:51:16",
+                                                "name": "Landmarks2D 2.lsmat",
+                                                "hash": "058c987db7bdf1c8b538031ad8484a4c",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
                                                 "lastModified": "2022-07-06T00:14:58",
                                                 "name": "UnlitBlack40.lsmat",
                                                 "hash": "d34961dfa5edffd1c58e6fb64b397204",
@@ -8385,9 +8671,23 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-06T00:14:58",
+                                                "lastModified": "2022-07-09T19:58:01",
                                                 "name": "Arrow.lsmat",
-                                                "hash": "51bb92fc8d10343e2bffbccffdb39c90",
+                                                "hash": "aabac47f13cd4996cd80a9f221b966cf",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-09T19:58:01",
+                                                "name": "UnlitGradient 2.lsmat",
+                                                "hash": "7d23693ee339fbd53eec8ff00991f3ff",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-09T19:58:01",
+                                                "name": "Arrow 2.lsmat",
+                                                "hash": "7f72965528e9fda1a02236350fef3627",
                                                 "children": ""
                                             },
                                             {
@@ -8399,9 +8699,30 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-06T00:14:58",
+                                                "lastModified": "2022-07-09T19:58:01",
                                                 "name": "ProgressBar.lsmat",
-                                                "hash": "33d9f7dd789a622327125ea307cf5194",
+                                                "hash": "1ad0a73d88f32c57c192ae79de389777",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-09T19:58:01",
+                                                "name": "ProgressBar 2.lsmat",
+                                                "hash": "9baea33734ff63bf713dfea3c21515d2",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-09T19:58:01",
+                                                "name": "Spinner.lsmat",
+                                                "hash": "b4dd3510c0e958dcedec0bc768868256",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-09T19:58:01",
+                                                "name": "UICircle 2.lsmat",
+                                                "hash": "bfe12a51ca7b7af1b015311c8ae0bd70",
                                                 "children": ""
                                             },
                                             {
@@ -8415,15 +8736,22 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2022-07-06T00:14:58",
+                                        "lastModified": "2022-07-09T17:51:13",
                                         "name": "Models",
-                                        "hash": "7c63ffa923cee4598274064551e92477",
+                                        "hash": "5bdda36796682dd0bb199b0de2faf50e",
                                         "children": [
                                             {
                                                 "isFolder": "false",
                                                 "lastModified": "2022-07-06T00:14:58",
                                                 "name": "ArrowPrefab 2.oprfb",
                                                 "hash": "a8d106cf8fdc6b3ab714e7f6d4e20d98",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-09T17:51:13",
+                                                "name": "ArrowPrefab.oprfb",
+                                                "hash": "c8a03c376a87e1bb016a5073fc7e7644",
                                                 "children": ""
                                             },
                                             {
@@ -8485,7 +8813,8 @@
                 },
                 "complexResources": [
                     "1109",
-                    "1164"
+                    "1164",
+                    "11698"
                 ]
             },
             "tree": {
@@ -8515,9 +8844,7 @@
                         "publicId": "18446744073709551615",
                         "source": "",
                         "additional": {
-                            "resourceInfoExportKey": {
-                                "RenderTargetRole": "1"
-                            }
+                            "RenderTargetRole": "1"
                         }
                     },
                     {
@@ -10452,50 +10779,6 @@
                         ]
                     },
                     {
-                        "name": "[Connected Lenses] Multiplayer Session",
-                        "type": "0",
-                        "subtype": "-1",
-                        "resourceId": "-1",
-                        "dependency": "0",
-                        "hidden": "false",
-                        "uid": "-1:-1",
-                        "fileId": "18446744073709551615",
-                        "originalId": "18446744073709551615",
-                        "publicId": "1140",
-                        "source": "",
-                        "additional": "",
-                        "resources": [
-                            {
-                                "name": "Connected Lenses - Multiplayer Session",
-                                "type": "4",
-                                "subtype": "0",
-                                "resourceId": "242",
-                                "dependency": "0",
-                                "hidden": "false",
-                                "uid": "1656526340764658:70376",
-                                "fileId": "474",
-                                "originalId": "18446744073709551615",
-                                "publicId": "1141",
-                                "source": "C:\/Users\/mvjor\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudiozoiTUeTTpQIy\/\/system\/\/emergencyFiles\/emergencyJs.js",
-                                "additional": ""
-                            },
-                            {
-                                "name": "Connected Lens Module",
-                                "type": "25",
-                                "subtype": "0",
-                                "resourceId": "243",
-                                "dependency": "0",
-                                "hidden": "false",
-                                "uid": "1656526340870758:70388",
-                                "fileId": "18446744073709551615",
-                                "originalId": "18446744073709551615",
-                                "publicId": "18446744073709551615",
-                                "source": "",
-                                "additional": ""
-                            }
-                        ]
-                    },
-                    {
                         "name": "[Lens Cloud] Cloud Storage",
                         "type": "0",
                         "subtype": "-1",
@@ -10610,20 +10893,6 @@
                                 "additional": ""
                             },
                             {
-                                "name": "Connected Lens Module 2",
-                                "type": "25",
-                                "subtype": "0",
-                                "resourceId": "251",
-                                "dependency": "0",
-                                "hidden": "false",
-                                "uid": "1657061762769176:96107",
-                                "fileId": "18446744073709551615",
-                                "originalId": "18446744073709551615",
-                                "publicId": "18446744073709551615",
-                                "source": "",
-                                "additional": ""
-                            },
-                            {
                                 "name": "ConnectedHelper",
                                 "type": "4",
                                 "subtype": "0",
@@ -10635,6 +10904,20 @@
                                 "originalId": "18446744073709551615",
                                 "publicId": "1150",
                                 "source": "C:\/Users\/mvjor\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudioWDOvONiiJWug\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Connected Lens Module",
+                                "type": "25",
+                                "subtype": "0",
+                                "resourceId": "371",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1657403472390186:3928620",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "18446744073709551615",
+                                "source": "",
                                 "additional": ""
                             }
                         ]
@@ -10865,6 +11148,22 @@
                                         "additional": {
                                             "subtype": "5"
                                         }
+                                    },
+                                    {
+                                        "name": "ScanningAnimation",
+                                        "type": "1",
+                                        "subtype": "5",
+                                        "resourceId": "372",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1657403472478832:3928648",
+                                        "fileId": "723",
+                                        "originalId": "724",
+                                        "publicId": "11698",
+                                        "source": "\/Users\/carlosspaggiari\/Library\/Caches\/Snap\/Lens Studio\/temp\/StudioyirKsdnlLlYx\/\/system\/\/emergencyFiles\/emergencyT3D.t3d",
+                                        "additional": {
+                                            "subtype": "5"
+                                        }
                                     }
                                 ]
                             },
@@ -11020,6 +11319,99 @@
                                                 }
                                             ]
                                         }
+                                    },
+                                    {
+                                        "name": "ProgressBar 2",
+                                        "type": "2",
+                                        "subtype": "1",
+                                        "resourceId": "373",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1657403472671596:3928680",
+                                        "fileId": "726",
+                                        "originalId": "727",
+                                        "publicId": "11699",
+                                        "source": "",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "UnlitGradient 2",
+                                        "type": "2",
+                                        "subtype": "1",
+                                        "resourceId": "374",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1657403472828218:3928730",
+                                        "fileId": "728",
+                                        "originalId": "729",
+                                        "publicId": "11700",
+                                        "source": "",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "Spinner",
+                                        "type": "2",
+                                        "subtype": "1",
+                                        "resourceId": "375",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1657403473000517:3928774",
+                                        "fileId": "730",
+                                        "originalId": "731",
+                                        "publicId": "11701",
+                                        "source": "",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "Arrow 2",
+                                        "type": "2",
+                                        "subtype": "1",
+                                        "resourceId": "376",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1657403473258417:3928841",
+                                        "fileId": "732",
+                                        "originalId": "733",
+                                        "publicId": "11702",
+                                        "source": "",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "Landmarks2D 2",
+                                        "type": "2",
+                                        "subtype": "0",
+                                        "resourceId": "377",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1657403473522272:3928896",
+                                        "fileId": "734",
+                                        "originalId": "735",
+                                        "publicId": "11703",
+                                        "source": "",
+                                        "additional": {
+                                            "passInfos": [
+                                                {
+                                                    "k": "0",
+                                                    "v": {
+                                                        "source": "\/Users\/amuller\/Snapchat\/Dev\/Lenses\/co-located-connected-lenses\/poc\/co-located-block-drawing-v2\/Public\/ConnectedUI\/Materials\/Landmarks2D\/pass0\/uber.glsl"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "name": "UICircle 2",
+                                        "type": "2",
+                                        "subtype": "1",
+                                        "resourceId": "378",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1657403473685728:3928929",
+                                        "fileId": "736",
+                                        "originalId": "737",
+                                        "publicId": "11704",
+                                        "source": "",
+                                        "additional": ""
                                     }
                                 ]
                             },
@@ -11130,6 +11522,62 @@
                                         "fileId": "530",
                                         "originalId": "532",
                                         "publicId": "1176",
+                                        "source": "",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "Colocated Landmarks 2D Mesh 2",
+                                        "type": "3",
+                                        "subtype": "5",
+                                        "resourceId": "379",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1657403473752818:3928955",
+                                        "fileId": "18446744073709551615",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "18446744073709551615",
+                                        "source": "",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "Colocated Landmarks 3D Mesh 2",
+                                        "type": "3",
+                                        "subtype": "6",
+                                        "resourceId": "380",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1657403473753622:3928971",
+                                        "fileId": "18446744073709551615",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "18446744073709551615",
+                                        "source": "",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "ArrowAnimation",
+                                        "type": "8",
+                                        "subtype": "0",
+                                        "resourceId": "381",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1657403473754351:3928984",
+                                        "fileId": "18446744073709551615",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "18446744073709551615",
+                                        "source": "",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "ArrowPrefab",
+                                        "type": "12",
+                                        "subtype": "-1",
+                                        "resourceId": "382",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1657403473755110:3928991",
+                                        "fileId": "738",
+                                        "originalId": "739",
+                                        "publicId": "11705",
                                         "source": "",
                                         "additional": ""
                                     }
@@ -13839,7 +14287,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1656469160756532:2244675"
+                    "1656528799024277:631655"
                 ]
             }
         },
@@ -19026,6 +19474,34 @@
                         },
                         "uncompressed_file": "701",
                         "compressed_files": ""
+                    }
+                },
+                {
+                    "k": "1657403472478832:3928648",
+                    "v": {
+                        "infos": {
+                            "originalSize": "124161",
+                            "compressedSize": "111892",
+                            "originalRAM": "15073280",
+                            "compressedRAM": "15073280",
+                            "extension": "t3d",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "1",
+                                "type": "0",
+                                "subtype": "9"
+                            }
+                        },
+                        "uncompressed_file": "725",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "7f7999776e8bc7681082a35a43df3219",
+                                    "settings_hash": "1024"
+                                },
+                                "v": "740"
+                            }
+                        ]
                     }
                 }
             ]
