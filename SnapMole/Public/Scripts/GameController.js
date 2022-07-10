@@ -22,6 +22,7 @@ global.players = {
 };
 
 
+
 // Connected Controller
 var cc = global.connectedController.api;
 
@@ -127,13 +128,14 @@ cc.events.on(cc.EventType.USER_LEFT_SESSION, function(userInfo) {
 })
 
 function sendMessage(message) {
-    global.logToScreen(message)
+    global.logToScreen("E: " + message)
     cc.sendStringMessage(message)
 }
 
 cc.events.on(cc.EventType.MESSAGE_RECEIVED, function(userId, message) {
     
     var arrayMessage = message.split("=")
+    global.logToScreen("R: " + message)
     
     if (arrayMessage[0] == "START_GAME" && !global.gameData.gameStarted) {
         sendMessage("START_GAME")
@@ -144,9 +146,9 @@ cc.events.on(cc.EventType.MESSAGE_RECEIVED, function(userId, message) {
     }
     else if (arrayMessage[0] == "SCORE") {
         global.gameData["opponentScore"] = parseInt(arrayMessage[1]);
-        script.opponentScoreText.text = global.gameData["opponentScore"].toString();
         script.opponentScoreText.enabled = true;
         script.opponentScoreTitle.enabled = true;
+        script.opponentScoreText.text = global.gameData["opponentScore"].toString();
     }
 })
 
@@ -209,6 +211,7 @@ function goToMenu() {
     script.waitingScene.enabled = false;
     script.menuScene.enabled = true;
     cc.actions.setFlowState(cc.FlowState.SESSION_TYPE_SELECT);
+    cc.actions.setSessionType(cc.SessionType.NOT_SET);
 }
 
 script.createEvent("UpdateEvent").bind(function(){
