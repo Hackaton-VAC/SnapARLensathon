@@ -45,7 +45,7 @@ var cc = global.connectedController.api;
 //};
 cc.onStateChange(function(state) {
     // Verificamos que el estado del flujo sea DONE, que significa que ya creó la sesion
-    global.logToScreen(state.flowState)
+    ////global.logToScreen(state.flowState)
     if (state.flowState == cc.FlowState.SESSION_TYPE_SELECT && !script.introAudio.isPlaying()) {
         //print("audio");
         script.introAudio.play(-1);
@@ -62,11 +62,11 @@ cc.onStateChange(function(state) {
         // y debemos esperar por el jugador 2. Activamos la escena intermedia "waitingScene"
         // que nos dice que esta esperando por un jugador.
         else if (state.sessionType == cc.SessionType.REMOTE && !global.gameData.gameStarted) {
-            global.logToScreen(activeUserCount())
+            //global.logToScreen(activeUserCount())
             // El segundo jugador se conecta
             if (activeUserCount() >= 2) {
                 global.players.myUserId = state.userId;
-                global.logToScreen("My id (connected): " + String(state.userId))
+                //global.logToScreen("My id (connected): " + String(state.userId))
                 startGame();
                 
             } 
@@ -74,7 +74,7 @@ cc.onStateChange(function(state) {
             else {
                 
                 global.players.myUserId = state.userId;
-                global.logToScreen("My id (stateChange): " + String(state.userId))
+                //global.logToScreen("My id (stateChange): " + String(state.userId))
                 script.menuScene.enabled = false;
                 script.waitingScene.enabled = true;
                 script.endScene.enabled = false;
@@ -134,14 +134,14 @@ cc.events.on(cc.EventType.USER_LEFT_SESSION, function(userInfo) {
 })
 
 function sendMessage(message) {
-    global.logToScreen("E: " + message)
+    //global.logToScreen("E: " + message)
     cc.sendStringMessage(message)
 }
 
 cc.events.on(cc.EventType.MESSAGE_RECEIVED, function(userId, message) {
     
     var arrayMessage = message.split("=")
-    global.logToScreen("R: " + message)
+    //global.logToScreen("R: " + message)
     
     if (arrayMessage[0] == "START_GAME" && !global.gameData.gameStarted) {
         sendMessage("START_GAME")
