@@ -11,17 +11,20 @@
 // @input Asset.ObjectPrefab time
 
 
-var startTime = script.cooldown;
+var startTime = Math.floor(Math.random() * script.cooldown);
 script.createEvent("UpdateEvent").bind(onUpdate);
 
+/**/
+function getRandomStartTime(){
+    return Math.floor(Math.random() * (7-3) + 3) //script.cooldown;//Math.floor(Math.random() * 7)
+}
 
 function createObjectFromPrefab(myPrefab){
     if(myPrefab){
-        print(myPrefab.name)
         var instanceObject = myPrefab.instantiate(script.getSceneObject());
         instanceObject.getTransform().setLocalPosition(new vec3(0,0,0));
         instanceObject.enabled = true;
-        print(instanceObject.getTransform().getWorldPosition())
+        //print(instanceObject.getTransform().getWorldPosition())
         return instanceObject;
     }
     else{
@@ -37,14 +40,17 @@ function onUpdate(eventData){
     startTime -= getDeltaTime();
     //print("actu")
     if(script.getSceneObject().getChildrenCount() > 0){
-        startTime = script.cooldown;
-        print(1)
+        startTime = getRandomStartTime();
+        //print(startTime)
     }
     if(startTime <= 0 && script.getSceneObject().getChildrenCount() <= 0){
-        print("Creating something")
-        var prefab = getRandObj()
-        createObjectFromPrefab(prefab);
-        startTime = script.cooldown;
+        if(hasToSpawnObject()){
+            var prefab = getRandObj()
+            createObjectFromPrefab(prefab); 
+            print("Creado")
+        }
+
+        startTime = getRandomStartTime(); //script.cooldown;//Math.floor(Math.random() * script.cooldown)
     }
 }
 
@@ -56,12 +62,18 @@ function fill(total, obj){
     return arr;
 }
 
+function hasToSpawnObject(){
+    //return true;
+    return Math.round(Math.random()) == 1;
+}
+
 function getRandObj(){
     var arrmole = fill(script.probmole, script.mole);//
     var arrbomb = fill(script.probbomb, script.bomb);//
     var arrtime = fill(script.probtime, script.time);//
     var elements = arrmole.concat(arrbomb, arrtime)
     var randidx = Math.floor(Math.random() * elements.length);
+    print(elements[randidx].name)
     return elements[randidx];
     
 }

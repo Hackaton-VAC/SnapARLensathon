@@ -28,16 +28,37 @@ function createObjectFromPrefab(){
 
 function getRandomPoints(){
     var points = [];
+    var dimension = script.width * script.height;   
+    var positions = [];
+    for (var i = 0; i < dimension; i++) {
+        positions.push(i);
+    }
+    //var positions = Array.from(Array(dimension).keys());      // Positions from 0 to N (width*height)
+    shuffle(positions);
+    var half = script.width / 2 
     if(script.height && script.width && script.margin && script.topo_N){
         for(var i = 0; i< script.topo_N; i++){
-            var maximum_x = Math.ceil(script.width/2);
-            var minimum_x = Math.floor(-script.width/2);
-            var maximum_y = Math.ceil(script.height/2);
-            var minimum_y = Math.floor(-script.height/2);
-            var x = Math.random() * (maximum_x - minimum_x) + minimum_x;
-            var y = Math.random() * (maximum_y - minimum_y) + minimum_y;
+            /*Vector*/
+            /*
+            var x = i;
+            var y = -0.4;
             points.push(new vec3(x*script.margin ,0,y*script.margin))
+            */
+            /*Matrix*/
+            
+            var factor = positions[i] <= half ? -1 : 1;
+            var x = factor * (positions[i] % script.width); // 
+            var z = Math.floor(positions[i]/script.width);
+            var offset = 0.4;
+            points.push(new vec3(x*script.margin ,0, offset + z*-script.margin))
+            
         }
     }
+    print(positions)
+    print(points)
     return points;
+}
+
+function shuffle(array) {
+  array.sort(function () {Math.random() - 0.5});
 }

@@ -7,6 +7,7 @@
 // @input Component.Text scoreText {"label": "Game Over OwnScore"}
 // @input Component.Text opponentScoreText {"label": "Game Over OpponentScore"}
 // @input Component.Text opponentScoreTitle {"label": "Game Over OpponentTitle"}
+// @input SceneObject holeSpawner
 
 global.behaviorSystem.addCustomTriggerResponse("START_GAME", startGame);
 global.behaviorSystem.addCustomTriggerResponse("GAME_OVER", finishGame);
@@ -183,6 +184,8 @@ function startGame() {
     script.introAudio.stop(false);
     global.scoreController.resetScorer();
     global.countdownController.startTimer();
+    // Turn on HoleSpawner
+    script.holeSpawner.enabled = true;
     
 }
  
@@ -190,6 +193,7 @@ function finishGame() {
     if (!global.gameData.gameStarted) {
         return
     }
+    script.holeSpawner.enabled = false;
     sendMessage("GAME_OVER");
     sendMessage("SCORE=" + global.gameData.ownScore);
     global.gameData.gameStarted = false;

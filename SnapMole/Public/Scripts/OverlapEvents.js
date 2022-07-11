@@ -4,8 +4,11 @@
 // Event: Initialized
 // Description: This script demonstrates basic usage for overlap events 
 //@input Component.ScriptComponent myFunctionScript
+//@input Component.AudioComponent audioMole
+//@input Component.AudioComponent audioTime
+//@input Component.AudioComponent audioBomb
 
-
+var hascollision = false;
 //  Know who I am
 var obj = script.getSceneObject();
 // obj.name
@@ -16,16 +19,28 @@ var collider = obj.getComponent("Physics.ColliderComponent");
 
 // Update object's color based on Zone Color
 function updateCositas() {
+    if(hascollision){
+        return;
+    }
+    hascollision = true;
     if(obj.name == "Topo"){
-        // update my animation 
-        // update score (TODO)
+        global.behaviorSystem.sendCustomTrigger("SMASH_MOLE");
+        if(!script.audioMole.isPlaying()){           // USAR IS PLaying
+            script.audioMole.play(1); 
+        }
         // trigger sound (TODO)
     }
     if(obj.name == "Bomb"){
-        
+        global.behaviorSystem.sendCustomTrigger("SMASH_BOMB");
+        if(!script.audioBomb.isPlaying()){           // USAR IS PLaying
+            script.audioBomb.play(1); 
+        }
     }
-    if(obj.name == "Time"){
-        
+    if(obj.name == "Reloj"){
+        global.behaviorSystem.sendCustomTrigger("SMASH_TIMER");
+        if(!script.audioTime.isPlaying()){           // USAR IS PLaying
+            script.audioTime.play(1); 
+        }
     }
     script.myFunctionScript.api.changeState("down");
     //global.logToScreen(script.myFunctionScript.api.state);
