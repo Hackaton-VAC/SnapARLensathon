@@ -3,6 +3,7 @@
 // @input SceneObject gameScene
 // @input SceneObject waitingScene
 // @input SceneObject endScene
+// @input Component.AudioComponent introAudio
 // @input Component.Text scoreText {"label": "Game Over OwnScore"}
 // @input Component.Text opponentScoreText {"label": "Game Over OpponentScore"}
 // @input Component.Text opponentScoreTitle {"label": "Game Over OpponentTitle"}
@@ -44,6 +45,10 @@ var cc = global.connectedController.api;
 cc.onStateChange(function(state) {
     // Verificamos que el estado del flujo sea DONE, que significa que ya creó la sesion
     global.logToScreen(state.flowState)
+    if (state.flowState == cc.FlowState.SESSION_TYPE_SELECT && !script.introAudio.isPlaying()) {
+        //print("audio");
+        script.introAudio.play(-1);
+    }
     if (state.flowState == cc.FlowState.DONE){
         print("Entro: " + state.flowState + " " + state.sessionType)
         
@@ -177,6 +182,7 @@ function startGame() {
         "opponentScore": 0, 
         "currentTime": 0
     };
+    script.introAudio.stop(false);
     global.scoreController.resetScorer();
     global.countdownController.startTimer();
     
@@ -210,6 +216,7 @@ function goToMenu() {
     script.endScene.enabled = false;
     script.waitingScene.enabled = false;
     script.menuScene.enabled = true;
+    script.introAudio.play(-1);
     cc.actions.setFlowState(cc.FlowState.SESSION_TYPE_SELECT);
     cc.actions.setSessionType(cc.SessionType.NOT_SET);
 }
