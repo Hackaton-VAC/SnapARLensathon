@@ -54,8 +54,8 @@ function getRandomPoints(){
             
         }
     }
-    print(positions)
-    print(points)
+    //print(positions)
+    //print(points)
     return points;
 }
 

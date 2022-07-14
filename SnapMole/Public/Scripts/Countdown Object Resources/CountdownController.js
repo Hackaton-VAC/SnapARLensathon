@@ -90,7 +90,7 @@ function countdownCompleted() {
         if (global.behaviorSystem) {
             global.behaviorSystem.sendCustomTrigger(script.behaviorTrigger);
         } else {
-            print("CountdownController, ERROR: No Behavior script in the scene.");
+            //print("CountdownController, ERROR: No Behavior script in the scene.");
         }
     }
     

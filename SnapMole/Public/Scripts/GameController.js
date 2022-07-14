@@ -51,7 +51,7 @@ cc.onStateChange(function(state) {
         script.introAudio.play(-1);
     }
     if (state.flowState == cc.FlowState.DONE){
-        print("Entro: " + state.flowState + " " + state.sessionType)
+        //print("Entro: " + state.flowState + " " + state.sessionType)
         
         // Si el estado tiene SessionType = NOT_SET, significa que juega solo
         // Solo llamamos startGame()
@@ -123,13 +123,13 @@ cc.events.on(cc.EventType.USER_JOINED_SESSION, function(userInfo) {
         startGame();   
         
     } else {
-        print("Este else significa que ya estan jugando 2 personas")
+        //print("Este else significa que ya estan jugando 2 personas")
     }
 })
 
 // Handlear cuando el oponente se desconecta
 cc.events.on(cc.EventType.USER_LEFT_SESSION, function(userInfo) {
-    print("Se desconecto el oponente");
+    //print("Se desconecto el oponente");
     finishGame()
 })
 
@@ -171,7 +171,7 @@ function myStartRemote() {
 
 
 function startGame() {
-    print("start")
+    //print("start")
     script.menuScene.enabled = false;
     script.waitingScene.enabled = false; 
     script.gameScene.enabled = true;

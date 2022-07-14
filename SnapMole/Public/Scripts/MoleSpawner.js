@@ -47,7 +47,7 @@ function onUpdate(eventData){
         if(hasToSpawnObject()){
             var prefab = getRandObj()
             createObjectFromPrefab(prefab); 
-            print("Creado")
+            //print("Creado")
         }
 
         startTime = getRandomStartTime(); //script.cooldown;//Math.floor(Math.random() * script.cooldown)
@@ -73,7 +73,7 @@ function getRandObj(){
     var arrtime = fill(script.probtime, script.time);//
     var elements = arrmole.concat(arrbomb, arrtime)
     var randidx = Math.floor(Math.random() * elements.length);
-    print(elements[randidx].name)
+    //print(elements[randidx].name)
     return elements[randidx];
     
 }

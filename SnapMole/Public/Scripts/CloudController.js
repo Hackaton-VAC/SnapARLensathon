@@ -12,7 +12,7 @@ script.multiplayerSession.onStarterConnectedToMultiplayer = function (_session) 
 function onCloudStoreReady(store) {
     // We will initialize value for the store
     script.cloudStorage.initializeValueInScope(StorageScope.Session, "ownScore", 100, function() {
-        print("Initialized Value!")
+        //print("Initialized Value!")
         hasConnected = true;
     });
 }

@@ -91,7 +91,7 @@ var actions = (function (initialState) {
     
     return {
         setFlowState: function (uiFlowState) {
-            print(">>>>" + uiFlowState)
+            //print(">>>>" + uiFlowState)
             setState({flowState: uiFlowState});
         },
         setBuildingProgress: function (mapBuildingProgress) {
@@ -488,7 +488,7 @@ script.api.events = connected.getEvents();
 // State changes for ColocatedBehaviours
 script.api.onStateChange = function (fn) { 
     // Trigger the state for the listener
-    print("ONSTATECHANGE");
+    //print("ONSTATECHANGE");
     utils.delay0(function () {
         fn(actions.getCurrentState());
     });
